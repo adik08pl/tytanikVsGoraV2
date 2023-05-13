@@ -8,6 +8,6 @@ public class Main {
         //PassengerId	Survived	Pclass	Name	Sex	Age	SibSp	Parch	Ticket	Fare	Cabin	Embarked
         List<String> linie = Files.readAllLines(Path.of("C:/Users/sirk0/Desktop/tytanik.txt"));
         for (String linia: linie)
-
+            System.out.println(linia);
     }
 }
